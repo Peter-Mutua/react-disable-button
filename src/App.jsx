@@ -32,7 +32,7 @@ const App = () => {
   return (
     <Container>
       <h3>Disabling the button and adding a loader on being clicked</h3>
-      <Button onClick={()=> {
+      <Button onClick={() => {
          setIsLoading(true);
 
         //  **we use a fake timer that assumes data has been fetched
